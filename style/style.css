@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    min-height: 100%;
+    margin: 0 0 80px;
+}
+.navbar navbar-expand-lg navbar-dark bg-dark{
+    display: flex;
+}
+.carousel{
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+    justify-content: center;
+    position: relative;
+}
+.carousel img{
+    max-height: 100%;
+    width: auto;
+}
+#footer{
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    justify-content: auto;
+  }
