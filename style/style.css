@@ -10,11 +10,14 @@ body{
     min-height: 100%;
     margin: 0 0 80px;
 }
+.logo{
+    width: 70px;
+    position: relative;
+}
 .navbar navbar-expand-lg navbar-dark bg-dark{
     display: flex;
 }
 .carousel{
-    
     display: flex;
     flex-direction: column;
     padding-top: 1px;
